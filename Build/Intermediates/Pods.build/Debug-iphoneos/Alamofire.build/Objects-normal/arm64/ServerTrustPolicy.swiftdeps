@@ -1,0 +1,423 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ServerTrustPolicyManager"
+- "ServerTrustPolicy"
+provides-nominal:
+- "9Alamofire24ServerTrustPolicyManagerC"
+- "9Alamofire17ServerTrustPolicyO"
+provides-member:
+- ["9Alamofire24ServerTrustPolicyManagerC", ""]
+- ["So12NSURLSessionC", ""]
+- ["9Alamofire17ServerTrustPolicyO", ""]
+- ["So12NSURLSessionC", "serverTrustPolicyManager"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "..<"
+- !private "=="
+- !private "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Bundle"
+- !private "CFArray"
+- !private "CFData"
+- "CFOptionFlags"
+- !private "CFString"
+- !private "CFTypeRef"
+- "CastingPrecedence"
+- "Data"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "SecCertificate"
+- !private "SecCertificateCopyData"
+- !private "SecCertificateCreateWithData"
+- "SecKey"
+- !private "SecPolicyCreateBasicX509"
+- !private "SecPolicyCreateRevocation"
+- !private "SecPolicyCreateSSL"
+- "SecTrust"
+- !private "SecTrustCopyPublicKey"
+- !private "SecTrustCreateWithCertificates"
+- !private "SecTrustEvaluate"
+- !private "SecTrustGetCertificateAtIndex"
+- !private "SecTrustGetCertificateCount"
+- !private "SecTrustResultType"
+- !private "SecTrustSetAnchorCertificates"
+- !private "SecTrustSetAnchorCertificatesOnly"
+- !private "SecTrustSetPolicies"
+- "ServerTrustPolicy"
+- "ServerTrustPolicyManager"
+- !private "Set"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- !private "URL"
+- "URLSession"
+- !private "errSecSuccess"
+- !private "objc_getAssociatedObject"
+- !private "objc_setAssociatedObject"
+- !private "||"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "map"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "joined"]
+- !private ["s13ArrayProtocolP", "map"]
+- !private ["SK", "append"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "joined"]
+- !private ["SK", "map"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So8NSBundleC", "main"]
+- !private ["So8NSBundleC", "paths"]
+- !private ["s7CVarArgP", "AssociatedKeys"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "objc_getAssociatedObject"]
+- !private ["s7CVarArgP", "objc_setAssociatedObject"]
+- !private ["s7CVarArgP", "paths"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "append"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "joined"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AssociatedKeys"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "objc_getAssociatedObject"]
+- !private ["s28CustomDebugStringConvertibleP", "objc_setAssociatedObject"]
+- !private ["s28CustomDebugStringConvertibleP", "paths"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "AssociatedKeys"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "objc_getAssociatedObject"]
+- !private ["s23CustomStringConvertibleP", "objc_setAssociatedObject"]
+- !private ["s23CustomStringConvertibleP", "paths"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "joined"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "joined"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "AssociatedKeys"]
+- !private ["SQ", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "append"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "invalid"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "main"]
+- !private ["SQ", "map"]
+- !private ["SQ", "objc_getAssociatedObject"]
+- !private ["SQ", "objc_setAssociatedObject"]
+- !private ["SQ", "paths"]
+- !private ["SQ", "proceed"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "unspecified"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "AssociatedKeys"]
+- !private ["SH", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "append"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "invalid"]
+- !private ["SH", "joined"]
+- !private ["SH", "main"]
+- !private ["SH", "map"]
+- !private ["SH", "objc_getAssociatedObject"]
+- !private ["SH", "objc_setAssociatedObject"]
+- !private ["SH", "paths"]
+- !private ["SH", "proceed"]
+- !private ["SH", "subscript"]
+- !private ["SH", "unspecified"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "init"]
+- !private ["SM", "joined"]
+- !private ["SM", "map"]
+- !private ["So8NSObjectC", "AssociatedKeys"]
+- ["So8NSObjectC", "ServerTrustPolicyManager"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "objc_getAssociatedObject"]
+- !private ["So8NSObjectC", "objc_setAssociatedObject"]
+- !private ["So8NSObjectC", "paths"]
+- ["So8NSObjectC", "serverTrustPolicyManager"]
+- !private ["So8NSObjectP", "AssociatedKeys"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "objc_getAssociatedObject"]
+- !private ["So8NSObjectP", "objc_setAssociatedObject"]
+- !private ["So8NSObjectP", "paths"]
+- !private ["Sk", "append"]
+- !private ["Sk", "init"]
+- !private ["Sk", "joined"]
+- !private ["Sk", "map"]
+- !private ["Sm", "append"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "joined"]
+- !private ["Sm", "map"]
+- !private ["SY", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["SY", "invalid"]
+- !private ["SY", "proceed"]
+- !private ["SY", "unspecified"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["So18SecTrustResultTypeV", "invalid"]
+- !private ["So18SecTrustResultTypeV", "proceed"]
+- !private ["So18SecTrustResultTypeV", "unspecified"]
+- !private ["ST", "append"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "joined"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- !private ["9Alamofire17ServerTrustPolicyO", "AnyObject"]
+- ["9Alamofire17ServerTrustPolicyO", "Bool"]
+- ["9Alamofire17ServerTrustPolicyO", "Bundle"]
+- !private ["9Alamofire17ServerTrustPolicyO", "CFArray"]
+- !private ["9Alamofire17ServerTrustPolicyO", "CFData"]
+- ["9Alamofire17ServerTrustPolicyO", "CFOptionFlags"]
+- !private ["9Alamofire17ServerTrustPolicyO", "CFString"]
+- !private ["9Alamofire17ServerTrustPolicyO", "CFTypeRef"]
+- ["9Alamofire17ServerTrustPolicyO", "Data"]
+- ["9Alamofire17ServerTrustPolicyO", "SecCertificate"]
+- !private ["9Alamofire17ServerTrustPolicyO", "SecCertificateCopyData"]
+- !private ["9Alamofire17ServerTrustPolicyO", "SecCertificateCreateWithData"]
+- ["9Alamofire17ServerTrustPolicyO", "SecKey"]
+- !private ["9Alamofire17ServerTrustPolicyO", "SecPolicyCreateBasicX509"]
+- !private ["9Alamofire17ServerTrustPolicyO", "SecPolicyCreateRevocation"]
+- !private ["9Alamofire17ServerTrustPolicyO", "SecPolicyCreateSSL"]
+- ["9Alamofire17ServerTrustPolicyO", "SecTrust"]
+- !private ["9Alamofire17ServerTrustPolicyO", "SecTrustCopyPublicKey"]
+- !private ["9Alamofire17ServerTrustPolicyO", "SecTrustCreateWithCertificates"]
+- !private ["9Alamofire17ServerTrustPolicyO", "SecTrustEvaluate"]
+- !private ["9Alamofire17ServerTrustPolicyO", "SecTrustGetCertificateAtIndex"]
+- !private ["9Alamofire17ServerTrustPolicyO", "SecTrustGetCertificateCount"]
+- !private ["9Alamofire17ServerTrustPolicyO", "SecTrustResultType"]
+- !private ["9Alamofire17ServerTrustPolicyO", "SecTrustSetAnchorCertificates"]
+- !private ["9Alamofire17ServerTrustPolicyO", "SecTrustSetAnchorCertificatesOnly"]
+- !private ["9Alamofire17ServerTrustPolicyO", "SecTrustSetPolicies"]
+- !private ["9Alamofire17ServerTrustPolicyO", "ServerTrustPolicy"]
+- !private ["9Alamofire17ServerTrustPolicyO", "Set"]
+- ["9Alamofire17ServerTrustPolicyO", "String"]
+- !private ["9Alamofire17ServerTrustPolicyO", "URL"]
+- !private ["9Alamofire17ServerTrustPolicyO", "certificateData"]
+- ["9Alamofire17ServerTrustPolicyO", "certificates"]
+- ["9Alamofire17ServerTrustPolicyO", "customEvaluation"]
+- ["9Alamofire17ServerTrustPolicyO", "disableEvaluation"]
+- !private ["9Alamofire17ServerTrustPolicyO", "errSecSuccess"]
+- ["9Alamofire17ServerTrustPolicyO", "evaluate"]
+- ["9Alamofire17ServerTrustPolicyO", "performDefaultEvaluation"]
+- ["9Alamofire17ServerTrustPolicyO", "performRevokedEvaluation"]
+- ["9Alamofire17ServerTrustPolicyO", "pinCertificates"]
+- ["9Alamofire17ServerTrustPolicyO", "pinPublicKeys"]
+- !private ["9Alamofire17ServerTrustPolicyO", "publicKey"]
+- ["9Alamofire17ServerTrustPolicyO", "publicKeys"]
+- !private ["9Alamofire17ServerTrustPolicyO", "trustIsValid"]
+- ["9Alamofire24ServerTrustPolicyManagerC", "ServerTrustPolicy"]
+- ["9Alamofire24ServerTrustPolicyManagerC", "String"]
+- ["9Alamofire24ServerTrustPolicyManagerC", "init"]
+- ["9Alamofire24ServerTrustPolicyManagerC", "policies"]
+- ["9Alamofire24ServerTrustPolicyManagerC", "serverTrustPolicy"]
+- !private ["Sh", "init"]
+- !private ["s10SetAlgebraP", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation3URLV", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- !private ["So12NSURLSessionC", "AssociatedKeys"]
+- ["So12NSURLSessionC", "ServerTrustPolicyManager"]
+- !private ["So12NSURLSessionC", "objc_getAssociatedObject"]
+- !private ["So12NSURLSessionC", "objc_setAssociatedObject"]
+- ["So12NSURLSessionC", "serverTrustPolicyManager"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AssociatedKeys"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_getAssociatedObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_setAssociatedObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "paths"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["So22objc_AssociationPolicyV", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- "SK"
+- !private "Sb"
+- !private "So8NSBundleC"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- "Se"
+- !private "SD"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sk"
+- "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So18SecTrustResultTypeV"
+- "ST"
+- "9Alamofire17ServerTrustPolicyO"
+- "9Alamofire24ServerTrustPolicyManagerC"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- "9Alamofire14URLConvertibleP"
+- "So12NSURLSessionC"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+- !private "So22objc_AssociationPolicyV"
+depends-dynamic-lookup:
+- !private "isEqual"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nguyenductai/Desktop/testFaceDetectRealTime/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/nguyenductai/Desktop/testFaceDetectRealTime/Build/Intermediates/Pods.build/Debug-iphoneos/Alamofire.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f3c8eec7f0b3512e52235164ecda7974"

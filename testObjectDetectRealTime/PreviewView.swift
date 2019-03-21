@@ -57,7 +57,7 @@ class PreviewView: UIView {
         
         // The coordinates are normalized to the dimensions of the processed image, with the origin at the image's lower-left corner.
         let facebounds = face.boundingBox.applying(translate).applying(transform)
-        
+      
         _ = createLayer(in: facebounds)
         
     }

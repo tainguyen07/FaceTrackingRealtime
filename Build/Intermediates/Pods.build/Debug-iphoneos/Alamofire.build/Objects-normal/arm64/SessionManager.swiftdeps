@@ -1,0 +1,921 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SessionManager"
+provides-nominal:
+- "9Alamofire14SessionManagerC"
+- "9Alamofire14SessionManagerC31MultipartFormDataEncodingResultO"
+provides-member:
+- ["9Alamofire14SessionManagerC", ""]
+- ["9Alamofire14SessionManagerC31MultipartFormDataEncodingResultO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- "*"
+- "+"
+- !private "+="
+- "-"
+- !private "<"
+- !private "==="
+- "??"
+- !private "AdaptError"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Bundle"
+- !private "CFAbsoluteTimeGetCurrent"
+- "CastingPrecedence"
+- "Data"
+- "DataRequest"
+- "DispatchQueue"
+- "Double"
+- "DownloadRequest"
+- "Error"
+- !private "FileManager"
+- "FloatLiteralType"
+- "HTTPHeaders"
+- "HTTPMethod"
+- "InputStream"
+- "Int"
+- "IntegerLiteralType"
+- "Locale"
+- "MultipartFormData"
+- !private "NSTemporaryDirectory"
+- "NetService"
+- "ParameterEncoding"
+- "Parameters"
+- "ProcessInfo"
+- "Request"
+- "RequestAdapter"
+- "RequestRetrier"
+- "ServerTrustPolicyManager"
+- "SessionDelegate"
+- "SessionManager"
+- "StreamRequest"
+- "String"
+- "StringLiteralType"
+- "UInt64"
+- "URL"
+- "URLConvertible"
+- !private "URLEncoding"
+- "URLRequest"
+- "URLRequestConvertible"
+- "URLSession"
+- "URLSessionConfiguration"
+- "UUID"
+- "UnicodeScalarType"
+- "UploadRequest"
+- "Void"
+- "kCFBundleExecutableKey"
+- "kCFBundleIdentifierKey"
+- "kCFBundleVersionKey"
+depends-member:
+- ["Sa", "joined"]
+- ["Sa", "prefix"]
+- ["s13ArrayProtocolP", "enumerated"]
+- ["s13ArrayProtocolP", "joined"]
+- ["s13ArrayProtocolP", "prefix"]
+- ["s10ArraySliceV", "enumerated"]
+- ["SK", "enumerated"]
+- ["SK", "init"]
+- ["SK", "init"]
+- ["SK", "joined"]
+- ["SK", "prefix"]
+- ["SB", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["So8NSBundleC", "infoDictionary"]
+- ["So8NSBundleC", "init"]
+- ["So8NSBundleC", "main"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addOperation"]
+- !private ["s7CVarArgP", "after"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "configuration"]
+- !private ["s7CVarArgP", "createDirectory"]
+- ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "destination"]
+- !private ["s7CVarArgP", "error"]
+- !private ["s7CVarArgP", "global"]
+- ["s7CVarArgP", "httpAdditionalHeaders"]
+- !private ["s7CVarArgP", "identifier"]
+- ["s7CVarArgP", "infoDictionary"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "invalidateAndCancel"]
+- ["s7CVarArgP", "joined"]
+- ["s7CVarArgP", "main"]
+- ["s7CVarArgP", "operatingSystemVersion"]
+- ["s7CVarArgP", "prefix"]
+- ["s7CVarArgP", "processInfo"]
+- !private ["s7CVarArgP", "queue"]
+- !private ["s7CVarArgP", "removeItem"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "retrier"]
+- !private ["s7CVarArgP", "serverTrustPolicyManager"]
+- !private ["s7CVarArgP", "sessionDidFinishEventsForBackgroundURLSession"]
+- !private ["s7CVarArgP", "sessionManager"]
+- ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "sync"]
+- !private ["s7CVarArgP", "task"]
+- !private ["s7CVarArgP", "taskNeedNewBodyStream"]
+- !private ["s7CVarArgP", "utility"]
+- ["Sl", "enumerated"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["Sl", "joined"]
+- ["Sl", "prefix"]
+- ["Sl", "subscript"]
+- ["SL", "init"]
+- ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "DownloadFileDestination"]
+- ["s28CustomDebugStringConvertibleP", "Downloadable"]
+- !private ["s28CustomDebugStringConvertibleP", "RequestTask"]
+- !private ["s28CustomDebugStringConvertibleP", "Requestable"]
+- ["s28CustomDebugStringConvertibleP", "Streamable"]
+- ["s28CustomDebugStringConvertibleP", "Uploadable"]
+- !private ["s28CustomDebugStringConvertibleP", "addOperation"]
+- !private ["s28CustomDebugStringConvertibleP", "after"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "configuration"]
+- !private ["s28CustomDebugStringConvertibleP", "createDirectory"]
+- ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "destination"]
+- !private ["s28CustomDebugStringConvertibleP", "downloadDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "endTime"]
+- ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- ["s28CustomDebugStringConvertibleP", "httpAdditionalHeaders"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- ["s28CustomDebugStringConvertibleP", "infoDictionary"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "invalidateAndCancel"]
+- ["s28CustomDebugStringConvertibleP", "joined"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- ["s28CustomDebugStringConvertibleP", "operatingSystemVersion"]
+- !private ["s28CustomDebugStringConvertibleP", "originalTask"]
+- ["s28CustomDebugStringConvertibleP", "preferredLanguages"]
+- ["s28CustomDebugStringConvertibleP", "prefix"]
+- ["s28CustomDebugStringConvertibleP", "processInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "queue"]
+- !private ["s28CustomDebugStringConvertibleP", "removeItem"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "retrier"]
+- !private ["s28CustomDebugStringConvertibleP", "retryCount"]
+- !private ["s28CustomDebugStringConvertibleP", "serverTrustPolicyManager"]
+- !private ["s28CustomDebugStringConvertibleP", "sessionDidFinishEventsForBackgroundURLSession"]
+- !private ["s28CustomDebugStringConvertibleP", "sessionManager"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s28CustomDebugStringConvertibleP", "startTime"]
+- ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "sync"]
+- !private ["s28CustomDebugStringConvertibleP", "task"]
+- !private ["s28CustomDebugStringConvertibleP", "taskNeedNewBodyStream"]
+- !private ["s28CustomDebugStringConvertibleP", "utility"]
+- ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "async"]
+- ["s17CustomReflectableP", "enumerated"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "joined"]
+- ["s17CustomReflectableP", "preferredLanguages"]
+- ["s17CustomReflectableP", "prefix"]
+- !private ["s17CustomReflectableP", "setValue"]
+- ["s17CustomReflectableP", "subscript"]
+- ["s17CustomReflectableP", "uuidString"]
+- ["s23CustomStringConvertibleP", "DownloadFileDestination"]
+- ["s23CustomStringConvertibleP", "Downloadable"]
+- !private ["s23CustomStringConvertibleP", "RequestTask"]
+- !private ["s23CustomStringConvertibleP", "Requestable"]
+- ["s23CustomStringConvertibleP", "Streamable"]
+- ["s23CustomStringConvertibleP", "Uploadable"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addOperation"]
+- !private ["s23CustomStringConvertibleP", "after"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "configuration"]
+- !private ["s23CustomStringConvertibleP", "createDirectory"]
+- ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "destination"]
+- !private ["s23CustomStringConvertibleP", "downloadDelegate"]
+- !private ["s23CustomStringConvertibleP", "endTime"]
+- ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "error"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- ["s23CustomStringConvertibleP", "httpAdditionalHeaders"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- ["s23CustomStringConvertibleP", "infoDictionary"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "invalidateAndCancel"]
+- ["s23CustomStringConvertibleP", "joined"]
+- ["s23CustomStringConvertibleP", "main"]
+- ["s23CustomStringConvertibleP", "operatingSystemVersion"]
+- !private ["s23CustomStringConvertibleP", "originalTask"]
+- ["s23CustomStringConvertibleP", "preferredLanguages"]
+- ["s23CustomStringConvertibleP", "prefix"]
+- ["s23CustomStringConvertibleP", "processInfo"]
+- !private ["s23CustomStringConvertibleP", "queue"]
+- !private ["s23CustomStringConvertibleP", "removeItem"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "retrier"]
+- !private ["s23CustomStringConvertibleP", "retryCount"]
+- !private ["s23CustomStringConvertibleP", "serverTrustPolicyManager"]
+- !private ["s23CustomStringConvertibleP", "sessionDidFinishEventsForBackgroundURLSession"]
+- !private ["s23CustomStringConvertibleP", "sessionManager"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "startTime"]
+- ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "sync"]
+- !private ["s23CustomStringConvertibleP", "task"]
+- !private ["s23CustomStringConvertibleP", "taskNeedNewBodyStream"]
+- !private ["s23CustomStringConvertibleP", "utility"]
+- ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["9Alamofire11DataRequestC", "Requestable"]
+- ["9Alamofire11DataRequestC", "Uploadable"]
+- !private ["9Alamofire11DataRequestC", "delegate"]
+- !private ["9Alamofire11DataRequestC", "init"]
+- !private ["9Alamofire11DataRequestC", "resume"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "appendingPathComponent"]
+- !private ["Se", "async"]
+- ["Se", "init"]
+- ["Se", "init"]
+- ["Se", "joined"]
+- ["Se", "preferredLanguages"]
+- ["Se", "prefix"]
+- ["Se", "subscript"]
+- ["Se", "uuidString"]
+- ["SD", "subscript"]
+- !private ["So18OS_dispatch_objectC", "after"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "global"]
+- ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So18OS_dispatch_objectC", "utility"]
+- !private ["So17OS_dispatch_queueC", "after"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "global"]
+- ["So17OS_dispatch_queueC", "init"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["So17OS_dispatch_queueC", "sync"]
+- !private ["So17OS_dispatch_queueC", "utility"]
+- ["Sd", "init"]
+- ["9Alamofire15DownloadRequestC", "DownloadFileDestination"]
+- ["9Alamofire15DownloadRequestC", "Downloadable"]
+- !private ["9Alamofire15DownloadRequestC", "downloadDelegate"]
+- !private ["9Alamofire15DownloadRequestC", "init"]
+- !private ["9Alamofire15DownloadRequestC", "resume"]
+- !private ["9Alamofire20DownloadTaskDelegateC", "destination"]
+- !private ["9Alamofire15DownloadRequestC12DownloadableO", "deinit"]
+- !private ["9Alamofire15DownloadRequestC12DownloadableO", "request"]
+- !private ["9Alamofire15DownloadRequestC12DownloadableO", "resumeData"]
+- !private ["9Alamofire15DownloadRequestC12DownloadableO", "task"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "appendingPathComponent"]
+- !private ["SE", "async"]
+- ["SE", "init"]
+- ["SE", "init"]
+- ["SE", "joined"]
+- ["SE", "preferredLanguages"]
+- ["SE", "prefix"]
+- ["SE", "subscript"]
+- ["SE", "uuidString"]
+- ["s18EnumeratedSequenceV", "map"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "addOperation"]
+- !private ["SQ", "after"]
+- !private ["SQ", "appendingPathComponent"]
+- !private ["SQ", "async"]
+- !private ["SQ", "configuration"]
+- !private ["SQ", "createDirectory"]
+- ["SQ", "default"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "destination"]
+- ["SQ", "enumerated"]
+- !private ["SQ", "error"]
+- !private ["SQ", "get"]
+- !private ["SQ", "global"]
+- ["SQ", "httpAdditionalHeaders"]
+- !private ["SQ", "identifier"]
+- ["SQ", "infoDictionary"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "invalidateAndCancel"]
+- ["SQ", "joined"]
+- ["SQ", "main"]
+- ["SQ", "operatingSystemVersion"]
+- !private ["SQ", "post"]
+- ["SQ", "preferredLanguages"]
+- ["SQ", "prefix"]
+- ["SQ", "processInfo"]
+- !private ["SQ", "queue"]
+- !private ["SQ", "removeItem"]
+- !private ["SQ", "resume"]
+- !private ["SQ", "retrier"]
+- !private ["SQ", "serverTrustPolicyManager"]
+- !private ["SQ", "sessionDidFinishEventsForBackgroundURLSession"]
+- !private ["SQ", "sessionManager"]
+- !private ["SQ", "setValue"]
+- ["SQ", "subscript"]
+- !private ["SQ", "sync"]
+- !private ["SQ", "task"]
+- !private ["SQ", "taskNeedNewBodyStream"]
+- !private ["SQ", "utility"]
+- ["SQ", "uuidString"]
+- !private ["s5ErrorP", "underlyingAdaptError"]
+- ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- ["s25ExpressibleByArrayLiteralP", "joined"]
+- ["s25ExpressibleByArrayLiteralP", "prefix"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "async"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So13NSFileManagerC", "createDirectory"]
+- !private ["So13NSFileManagerC", "default"]
+- !private ["So13NSFileManagerC", "removeItem"]
+- ["SF", "init"]
+- !private ["9Alamofire10HTTPMethodO", "get"]
+- !private ["9Alamofire10HTTPMethodO", "post"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "addOperation"]
+- !private ["SH", "after"]
+- !private ["SH", "appendingPathComponent"]
+- !private ["SH", "async"]
+- !private ["SH", "configuration"]
+- !private ["SH", "createDirectory"]
+- ["SH", "default"]
+- !private ["SH", "delegate"]
+- !private ["SH", "destination"]
+- ["SH", "enumerated"]
+- !private ["SH", "error"]
+- !private ["SH", "get"]
+- !private ["SH", "global"]
+- ["SH", "httpAdditionalHeaders"]
+- !private ["SH", "identifier"]
+- ["SH", "infoDictionary"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "invalidateAndCancel"]
+- ["SH", "joined"]
+- ["SH", "main"]
+- ["SH", "operatingSystemVersion"]
+- !private ["SH", "post"]
+- ["SH", "preferredLanguages"]
+- ["SH", "prefix"]
+- ["SH", "processInfo"]
+- !private ["SH", "queue"]
+- !private ["SH", "removeItem"]
+- !private ["SH", "resume"]
+- !private ["SH", "retrier"]
+- !private ["SH", "serverTrustPolicyManager"]
+- !private ["SH", "sessionDidFinishEventsForBackgroundURLSession"]
+- !private ["SH", "sessionManager"]
+- !private ["SH", "setValue"]
+- ["SH", "subscript"]
+- !private ["SH", "sync"]
+- !private ["SH", "task"]
+- !private ["SH", "taskNeedNewBodyStream"]
+- !private ["SH", "utility"]
+- ["SH", "uuidString"]
+- ["10Foundation6LocaleV", "preferredLanguages"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["9Alamofire17MultipartFormDataC", "contentLength"]
+- !private ["9Alamofire17MultipartFormDataC", "contentType"]
+- !private ["9Alamofire17MultipartFormDataC", "encode"]
+- !private ["9Alamofire17MultipartFormDataC", "init"]
+- !private ["9Alamofire17MultipartFormDataC", "writeEncodedData"]
+- ["9Alamofire14SessionManagerC31MultipartFormDataEncodingResultO", "Bool"]
+- ["9Alamofire14SessionManagerC31MultipartFormDataEncodingResultO", "Error"]
+- ["9Alamofire14SessionManagerC31MultipartFormDataEncodingResultO", "URL"]
+- ["9Alamofire14SessionManagerC31MultipartFormDataEncodingResultO", "UploadRequest"]
+- ["9Alamofire14SessionManagerC31MultipartFormDataEncodingResultO", "failure"]
+- ["9Alamofire14SessionManagerC31MultipartFormDataEncodingResultO", "success"]
+- ["SM", "enumerated"]
+- ["SM", "joined"]
+- ["SM", "prefix"]
+- ["So9NSCopyingP", "default"]
+- ["So9NSCopyingP", "httpAdditionalHeaders"]
+- !private ["So9NSCopyingP", "identifier"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So8NSObjectC", "addOperation"]
+- !private ["So8NSObjectC", "after"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "configuration"]
+- !private ["So8NSObjectC", "createDirectory"]
+- ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "destination"]
+- !private ["So8NSObjectC", "error"]
+- !private ["So8NSObjectC", "global"]
+- ["So8NSObjectC", "httpAdditionalHeaders"]
+- !private ["So8NSObjectC", "identifier"]
+- ["So8NSObjectC", "infoDictionary"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "invalidateAndCancel"]
+- ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "operatingSystemVersion"]
+- ["So8NSObjectC", "processInfo"]
+- !private ["So8NSObjectC", "queue"]
+- !private ["So8NSObjectC", "removeItem"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "retrier"]
+- !private ["So8NSObjectC", "serverTrustPolicyManager"]
+- !private ["So8NSObjectC", "sessionDidFinishEventsForBackgroundURLSession"]
+- !private ["So8NSObjectC", "sessionManager"]
+- !private ["So8NSObjectC", "subscript"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectC", "task"]
+- !private ["So8NSObjectC", "taskNeedNewBodyStream"]
+- !private ["So8NSObjectC", "utility"]
+- !private ["So8NSObjectP", "addOperation"]
+- !private ["So8NSObjectP", "after"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "configuration"]
+- !private ["So8NSObjectP", "createDirectory"]
+- ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "destination"]
+- !private ["So8NSObjectP", "error"]
+- !private ["So8NSObjectP", "global"]
+- ["So8NSObjectP", "httpAdditionalHeaders"]
+- !private ["So8NSObjectP", "identifier"]
+- ["So8NSObjectP", "infoDictionary"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "invalidateAndCancel"]
+- ["So8NSObjectP", "main"]
+- ["So8NSObjectP", "operatingSystemVersion"]
+- ["So8NSObjectP", "processInfo"]
+- !private ["So8NSObjectP", "queue"]
+- !private ["So8NSObjectP", "removeItem"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "retrier"]
+- !private ["So8NSObjectP", "serverTrustPolicyManager"]
+- !private ["So8NSObjectP", "sessionDidFinishEventsForBackgroundURLSession"]
+- !private ["So8NSObjectP", "sessionManager"]
+- !private ["So8NSObjectP", "subscript"]
+- !private ["So8NSObjectP", "sync"]
+- !private ["So8NSObjectP", "task"]
+- !private ["So8NSObjectP", "taskNeedNewBodyStream"]
+- !private ["So8NSObjectP", "utility"]
+- ["Sj", "init"]
+- !private ["So9OS_objectC", "after"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "global"]
+- ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["So9OS_objectC", "utility"]
+- ["So24NSOperatingSystemVersiona", "majorVersion"]
+- ["So24NSOperatingSystemVersiona", "minorVersion"]
+- ["So24NSOperatingSystemVersiona", "patchVersion"]
+- !private ["So16NSOperationQueueC", "addOperation"]
+- !private ["Sq", "async"]
+- !private ["9Alamofire17ParameterEncodingP", "default"]
+- !private ["9Alamofire17ParameterEncodingP", "encode"]
+- ["So13NSProcessInfoC", "operatingSystemVersion"]
+- ["So13NSProcessInfoC", "processInfo"]
+- !private ["So19NSProgressReportingP", "resume"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "utility"]
+- ["Sk", "enumerated"]
+- ["Sk", "joined"]
+- ["Sk", "prefix"]
+- ["Sm", "enumerated"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- ["Sm", "joined"]
+- ["Sm", "prefix"]
+- !private ["SY", "get"]
+- !private ["SY", "post"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- ["10Foundation20ReferenceConvertibleP", "preferredLanguages"]
+- !private ["10Foundation20ReferenceConvertibleP", "setValue"]
+- ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- ["9Alamofire7RequestC", "DownloadFileDestination"]
+- ["9Alamofire7RequestC", "Downloadable"]
+- !private ["9Alamofire7RequestC", "RequestTask"]
+- !private ["9Alamofire7RequestC", "Requestable"]
+- ["9Alamofire7RequestC", "Streamable"]
+- ["9Alamofire7RequestC", "Uploadable"]
+- !private ["9Alamofire7RequestC", "delegate"]
+- !private ["9Alamofire7RequestC", "downloadDelegate"]
+- !private ["9Alamofire7RequestC", "endTime"]
+- !private ["9Alamofire7RequestC", "init"]
+- !private ["9Alamofire7RequestC", "originalTask"]
+- !private ["9Alamofire7RequestC", "resume"]
+- !private ["9Alamofire7RequestC", "retryCount"]
+- !private ["9Alamofire7RequestC", "startTime"]
+- !private ["9Alamofire7RequestC", "task"]
+- !private ["9Alamofire14RequestRetrierP", "should"]
+- !private ["9Alamofire7RequestC0B4TaskO", "data"]
+- !private ["9Alamofire7RequestC0B4TaskO", "download"]
+- !private ["9Alamofire7RequestC0B4TaskO", "stream"]
+- !private ["9Alamofire7RequestC0B4TaskO", "upload"]
+- !private ["9Alamofire11DataRequestC11RequestableV", "deinit"]
+- !private ["9Alamofire11DataRequestC11RequestableV", "init"]
+- !private ["9Alamofire11DataRequestC11RequestableV", "task"]
+- ["ST", "enumerated"]
+- ["ST", "init"]
+- ["ST", "init"]
+- ["ST", "joined"]
+- ["ST", "map"]
+- ["ST", "prefix"]
+- ["ST", "subscript"]
+- !private ["9Alamofire15SessionDelegateC", "deinit"]
+- !private ["9Alamofire15SessionDelegateC", "init"]
+- !private ["9Alamofire15SessionDelegateC", "retrier"]
+- !private ["9Alamofire15SessionDelegateC", "sessionDidFinishEventsForBackgroundURLSession"]
+- !private ["9Alamofire15SessionDelegateC", "sessionManager"]
+- !private ["9Alamofire15SessionDelegateC", "subscript"]
+- !private ["9Alamofire14SessionManagerC", "AdaptError"]
+- ["9Alamofire14SessionManagerC", "Bool"]
+- ["9Alamofire14SessionManagerC", "Bundle"]
+- !private ["9Alamofire14SessionManagerC", "CFAbsoluteTimeGetCurrent"]
+- ["9Alamofire14SessionManagerC", "Data"]
+- ["9Alamofire14SessionManagerC", "DataRequest"]
+- ["9Alamofire14SessionManagerC", "DispatchQueue"]
+- ["9Alamofire14SessionManagerC", "Double"]
+- ["9Alamofire14SessionManagerC", "DownloadRequest"]
+- ["9Alamofire14SessionManagerC", "Error"]
+- !private ["9Alamofire14SessionManagerC", "FileManager"]
+- ["9Alamofire14SessionManagerC", "HTTPHeaders"]
+- ["9Alamofire14SessionManagerC", "HTTPMethod"]
+- ["9Alamofire14SessionManagerC", "InputStream"]
+- ["9Alamofire14SessionManagerC", "Int"]
+- ["9Alamofire14SessionManagerC", "Locale"]
+- ["9Alamofire14SessionManagerC", "MultipartFormData"]
+- ["9Alamofire14SessionManagerC", "MultipartFormDataEncodingResult"]
+- !private ["9Alamofire14SessionManagerC", "NSTemporaryDirectory"]
+- ["9Alamofire14SessionManagerC", "NetService"]
+- ["9Alamofire14SessionManagerC", "ParameterEncoding"]
+- ["9Alamofire14SessionManagerC", "Parameters"]
+- ["9Alamofire14SessionManagerC", "ProcessInfo"]
+- ["9Alamofire14SessionManagerC", "Request"]
+- ["9Alamofire14SessionManagerC", "RequestAdapter"]
+- ["9Alamofire14SessionManagerC", "RequestRetrier"]
+- ["9Alamofire14SessionManagerC", "ServerTrustPolicyManager"]
+- ["9Alamofire14SessionManagerC", "SessionDelegate"]
+- ["9Alamofire14SessionManagerC", "SessionManager"]
+- ["9Alamofire14SessionManagerC", "StreamRequest"]
+- ["9Alamofire14SessionManagerC", "String"]
+- ["9Alamofire14SessionManagerC", "UInt64"]
+- ["9Alamofire14SessionManagerC", "URL"]
+- ["9Alamofire14SessionManagerC", "URLConvertible"]
+- !private ["9Alamofire14SessionManagerC", "URLEncoding"]
+- ["9Alamofire14SessionManagerC", "URLRequest"]
+- ["9Alamofire14SessionManagerC", "URLRequestConvertible"]
+- ["9Alamofire14SessionManagerC", "URLSession"]
+- ["9Alamofire14SessionManagerC", "URLSessionConfiguration"]
+- ["9Alamofire14SessionManagerC", "UUID"]
+- ["9Alamofire14SessionManagerC", "UploadRequest"]
+- ["9Alamofire14SessionManagerC", "Void"]
+- ["9Alamofire14SessionManagerC", "adapter"]
+- !private ["9Alamofire14SessionManagerC", "allowRetrier"]
+- ["9Alamofire14SessionManagerC", "backgroundCompletionHandler"]
+- !private ["9Alamofire14SessionManagerC", "commonInit"]
+- ["9Alamofire14SessionManagerC", "default"]
+- ["9Alamofire14SessionManagerC", "defaultHTTPHeaders"]
+- ["9Alamofire14SessionManagerC", "deinit"]
+- ["9Alamofire14SessionManagerC", "delegate"]
+- ["9Alamofire14SessionManagerC", "download"]
+- ["9Alamofire14SessionManagerC", "init"]
+- ["9Alamofire14SessionManagerC", "kCFBundleExecutableKey"]
+- ["9Alamofire14SessionManagerC", "kCFBundleIdentifierKey"]
+- ["9Alamofire14SessionManagerC", "kCFBundleVersionKey"]
+- ["9Alamofire14SessionManagerC", "multipartFormDataEncodingMemoryThreshold"]
+- ["9Alamofire14SessionManagerC", "queue"]
+- ["9Alamofire14SessionManagerC", "request"]
+- ["9Alamofire14SessionManagerC", "retrier"]
+- ["9Alamofire14SessionManagerC", "retry"]
+- ["9Alamofire14SessionManagerC", "session"]
+- ["9Alamofire14SessionManagerC", "startRequestsImmediately"]
+- ["9Alamofire14SessionManagerC", "stream"]
+- ["9Alamofire14SessionManagerC", "upload"]
+- ["s13SignedNumericP", "init"]
+- ["9Alamofire13StreamRequestC", "Streamable"]
+- !private ["9Alamofire13StreamRequestC", "init"]
+- !private ["9Alamofire13StreamRequestC", "resume"]
+- !private ["9Alamofire13StreamRequestC10StreamableO", "deinit"]
+- !private ["9Alamofire13StreamRequestC10StreamableO", "netService"]
+- !private ["9Alamofire13StreamRequestC10StreamableO", "stream"]
+- !private ["9Alamofire13StreamRequestC10StreamableO", "task"]
+- ["Sx", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- !private ["9Alamofire15TaskConvertibleP", "data"]
+- !private ["9Alamofire15TaskConvertibleP", "file"]
+- !private ["9Alamofire15TaskConvertibleP", "init"]
+- !private ["9Alamofire15TaskConvertibleP", "netService"]
+- !private ["9Alamofire15TaskConvertibleP", "request"]
+- !private ["9Alamofire15TaskConvertibleP", "resumeData"]
+- ["9Alamofire15TaskConvertibleP", "stream"]
+- !private ["9Alamofire15TaskConvertibleP", "task"]
+- !private ["9Alamofire12TaskDelegateC", "destination"]
+- !private ["9Alamofire12TaskDelegateC", "error"]
+- !private ["9Alamofire12TaskDelegateC", "queue"]
+- !private ["9Alamofire12TaskDelegateC", "task"]
+- !private ["9Alamofire12TaskDelegateC", "taskNeedNewBodyStream"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation3URLV", "appendingPathComponent"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "appendingPathComponent"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "request"]
+- !private ["9Alamofire14URLConvertibleP", "resumeData"]
+- !private ["9Alamofire11URLEncodingV", "default"]
+- !private ["9Alamofire11URLEncodingV", "deinit"]
+- !private ["10Foundation10URLRequestV", "deinit"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["10Foundation10URLRequestV", "setValue"]
+- !private ["9Alamofire21URLRequestConvertibleP", "asURLRequest"]
+- !private ["9Alamofire21URLRequestConvertibleP", "init"]
+- !private ["9Alamofire21URLRequestConvertibleP", "request"]
+- !private ["9Alamofire21URLRequestConvertibleP", "resumeData"]
+- !private ["9Alamofire21URLRequestConvertibleP", "setValue"]
+- !private ["So12NSURLSessionC", "configuration"]
+- !private ["So12NSURLSessionC", "delegate"]
+- !private ["So12NSURLSessionC", "init"]
+- !private ["So12NSURLSessionC", "invalidateAndCancel"]
+- !private ["So12NSURLSessionC", "serverTrustPolicyManager"]
+- ["So25NSURLSessionConfigurationC", "default"]
+- ["So25NSURLSessionConfigurationC", "httpAdditionalHeaders"]
+- !private ["So25NSURLSessionConfigurationC", "identifier"]
+- !private ["So24NSURLSessionDataDelegateP", "init"]
+- !private ["So24NSURLSessionDataDelegateP", "retrier"]
+- !private ["So24NSURLSessionDataDelegateP", "sessionDidFinishEventsForBackgroundURLSession"]
+- !private ["So24NSURLSessionDataDelegateP", "sessionManager"]
+- !private ["So24NSURLSessionDataDelegateP", "subscript"]
+- !private ["So20NSURLSessionDelegateP", "destination"]
+- !private ["So20NSURLSessionDelegateP", "init"]
+- !private ["So20NSURLSessionDelegateP", "retrier"]
+- !private ["So20NSURLSessionDelegateP", "sessionDidFinishEventsForBackgroundURLSession"]
+- !private ["So20NSURLSessionDelegateP", "sessionManager"]
+- !private ["So20NSURLSessionDelegateP", "subscript"]
+- !private ["So28NSURLSessionDownloadDelegateP", "destination"]
+- !private ["So28NSURLSessionDownloadDelegateP", "init"]
+- !private ["So28NSURLSessionDownloadDelegateP", "retrier"]
+- !private ["So28NSURLSessionDownloadDelegateP", "sessionDidFinishEventsForBackgroundURLSession"]
+- !private ["So28NSURLSessionDownloadDelegateP", "sessionManager"]
+- !private ["So28NSURLSessionDownloadDelegateP", "subscript"]
+- !private ["So26NSURLSessionStreamDelegateP", "init"]
+- !private ["So26NSURLSessionStreamDelegateP", "retrier"]
+- !private ["So26NSURLSessionStreamDelegateP", "sessionDidFinishEventsForBackgroundURLSession"]
+- !private ["So26NSURLSessionStreamDelegateP", "sessionManager"]
+- !private ["So26NSURLSessionStreamDelegateP", "subscript"]
+- !private ["So16NSURLSessionTaskC", "resume"]
+- !private ["So24NSURLSessionTaskDelegateP", "destination"]
+- !private ["So24NSURLSessionTaskDelegateP", "init"]
+- !private ["So24NSURLSessionTaskDelegateP", "retrier"]
+- !private ["So24NSURLSessionTaskDelegateP", "sessionDidFinishEventsForBackgroundURLSession"]
+- !private ["So24NSURLSessionTaskDelegateP", "sessionManager"]
+- !private ["So24NSURLSessionTaskDelegateP", "subscript"]
+- ["10Foundation4UUIDV", "init"]
+- ["10Foundation4UUIDV", "uuidString"]
+- ["9Alamofire13UploadRequestC", "Uploadable"]
+- !private ["9Alamofire13UploadRequestC", "delegate"]
+- !private ["9Alamofire13UploadRequestC", "init"]
+- !private ["9Alamofire13UploadRequestC", "resume"]
+- !private ["9Alamofire13UploadRequestC10UploadableO", "data"]
+- !private ["9Alamofire13UploadRequestC10UploadableO", "deinit"]
+- !private ["9Alamofire13UploadRequestC10UploadableO", "file"]
+- ["9Alamofire13UploadRequestC10UploadableO", "stream"]
+- !private ["9Alamofire13UploadRequestC10UploadableO", "task"]
+- ["s15_CVarArgAlignedP", "init"]
+- ["s22_CVarArgPassedAsDoubleP", "init"]
+- ["s24_DestructorSafeContainerP", "enumerated"]
+- ["s24_DestructorSafeContainerP", "joined"]
+- ["s24_DestructorSafeContainerP", "prefix"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- ["s35_HasCustomAnyHashableRepresentationP", "prefix"]
+- ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addOperation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "after"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "configuration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createDirectory"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "destination"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "error"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "httpAdditionalHeaders"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifier"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "infoDictionary"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "invalidateAndCancel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "operatingSystemVersion"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "processInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "queue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "retrier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "serverTrustPolicyManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sessionDidFinishEventsForBackgroundURLSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sessionManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sync"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "task"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "taskNeedNewBodyStream"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "utility"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "async"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "joined"]
+- ["s21_ObjectiveCBridgeableP", "preferredLanguages"]
+- ["s21_ObjectiveCBridgeableP", "prefix"]
+- !private ["s21_ObjectiveCBridgeableP", "setValue"]
+- ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s21_ObjectiveCBridgeableP", "uuidString"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "Sa"
+- "s13ArrayProtocolP"
+- "s10ArraySliceV"
+- "SK"
+- "SB"
+- !private "Sb"
+- "So8NSBundleC"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "9Alamofire11DataRequestC"
+- "Se"
+- "SD"
+- "So18OS_dispatch_objectC"
+- "So17OS_dispatch_queueC"
+- "Sd"
+- "9Alamofire15DownloadRequestC"
+- !private "9Alamofire20DownloadTaskDelegateC"
+- !private "9Alamofire15DownloadRequestC12DownloadableO"
+- "SE"
+- "s18EnumeratedSequenceV"
+- "SQ"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So13NSFileManagerC"
+- "SF"
+- !private "9Alamofire10HTTPMethodO"
+- "SH"
+- "10Foundation6LocaleV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "9Alamofire17MultipartFormDataC"
+- "9Alamofire14SessionManagerC31MultipartFormDataEncodingResultO"
+- "SM"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "Sj"
+- "So9OS_objectC"
+- "So24NSOperatingSystemVersiona"
+- !private "So16NSOperationQueueC"
+- !private "Sq"
+- !private "9Alamofire17ParameterEncodingP"
+- "So13NSProcessInfoC"
+- !private "So19NSProgressReportingP"
+- !private "8Dispatch0A3QoSV0B6SClassO"
+- "Sk"
+- "Sm"
+- !private "SY"
+- "10Foundation20ReferenceConvertibleP"
+- "9Alamofire7RequestC"
+- !private "9Alamofire14RequestRetrierP"
+- !private "9Alamofire7RequestC0B4TaskO"
+- !private "9Alamofire11DataRequestC11RequestableV"
+- "ST"
+- !private "9Alamofire15SessionDelegateC"
+- "9Alamofire14SessionManagerC"
+- "s13SignedNumericP"
+- "9Alamofire13StreamRequestC"
+- !private "9Alamofire13StreamRequestC10StreamableO"
+- "Sx"
+- "SS"
+- "Sy"
+- "9Alamofire15TaskConvertibleP"
+- !private "9Alamofire12TaskDelegateC"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- "9Alamofire14URLConvertibleP"
+- !private "9Alamofire11URLEncodingV"
+- !private "10Foundation10URLRequestV"
+- !private "9Alamofire21URLRequestConvertibleP"
+- !private "So12NSURLSessionC"
+- "So25NSURLSessionConfigurationC"
+- !private "So24NSURLSessionDataDelegateP"
+- !private "So20NSURLSessionDelegateP"
+- !private "So28NSURLSessionDownloadDelegateP"
+- !private "So26NSURLSessionStreamDelegateP"
+- !private "So16NSURLSessionTaskC"
+- !private "So24NSURLSessionTaskDelegateP"
+- "10Foundation4UUIDV"
+- "9Alamofire13UploadRequestC"
+- "9Alamofire13UploadRequestC10UploadableO"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nguyenductai/Desktop/testFaceDetectRealTime/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/nguyenductai/Desktop/testFaceDetectRealTime/Build/Intermediates/Pods.build/Debug-iphoneos/Alamofire.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9b20e51ff89536fd4238be35d7429fab"

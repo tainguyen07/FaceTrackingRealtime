@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "b0dfc98bf4f942d65dcac2280b3635a9"
+build_time: [1553140449, 230980000]
+inputs:
+  "/Users/nguyenductai/Desktop/testFaceDetectRealTime/testObjectDetectRealTime/Extensions.swift": [1549383918, 0]
+  "/Users/nguyenductai/Desktop/testFaceDetectRealTime/testObjectDetectRealTime/ViewController.swift": [1553140449, 0]
+  "/Users/nguyenductai/Desktop/testFaceDetectRealTime/testObjectDetectRealTime/PreviewView.swift": [1553068857, 0]
+  "/Users/nguyenductai/Desktop/testFaceDetectRealTime/testObjectDetectRealTime/AppDelegate.swift": [1551501055, 0]

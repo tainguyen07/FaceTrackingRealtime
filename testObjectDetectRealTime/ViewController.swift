@@ -10,10 +10,20 @@ import UIKit
 import AVKit
 import Vision
 import ARKit
+import Alamofire
+import SwiftyJSON
 
 class ViewController: UIViewController {
-  
+  //MARK: IBOutlet variables
   @IBOutlet weak var previewView: PreviewView!
+  @IBOutlet weak var nameLbl: UILabel!
+  
+  
+  //MARK: Create variables
+  //TODO: Count to request, if count > numberRequestData then Call API
+  let numberRequestData = 15
+  var countNumberToPushDataImage = 0
+  var imageFullScreenWhenCountNumberRequest30: UIImage?
   
   // VNRequest: Either Retangles or Landmarks
   private var faceDetectionRequest: VNRequest!
@@ -172,7 +182,7 @@ class ViewController: UIViewController {
   
 }
 
-// Video Sessions
+//MARK: - Video Sessions
 extension ViewController {
   private func configureSession() {
     if setupResult != .success { return }
@@ -330,7 +340,7 @@ extension ViewController {
   }
 }
 
-// MARK: -- Helpers
+// TODO: -- Helpers
 extension ViewController {
   func setupVision() {
     self.requests = [faceDetectionRequest]
@@ -339,10 +349,38 @@ extension ViewController {
   func handleFaces(request: VNRequest, error: Error?) {
     DispatchQueue.main.async {
       //perform all the UI updates on the main queue
-      guard let results = request.results as? [VNFaceObservation] else { return }
+      guard let results = request.results as? [VNFaceObservation] else { return } //Results is number face observation
       self.previewView.removeMask()
       for face in results {
+//        print(face.boundingBox)
+        self.countNumberToPushDataImage = self.countNumberToPushDataImage + 1
         self.previewView.drawFaceboundingBox(face: face)
+        
+        if self.countNumberToPushDataImage > self.numberRequestData {
+          self.countNumberToPushDataImage = 0
+          
+          guard let tempImage = self.imageFullScreenWhenCountNumberRequest30 else {return}
+          
+          //Rotate Image
+          let rotateImage = self.imageRotatedByDegrees(oldImage: tempImage, deg: 90)
+          
+          //Transform Coordinate follow image physical size
+          let transform = CGAffineTransform(scaleX: 1, y: -1).translatedBy(x: 0, y: -rotateImage.size.height)
+          
+          let translate = CGAffineTransform.identity.scaledBy(x: rotateImage.size.width, y: rotateImage.size.height)
+          // The coordinates are normalized to the dimensions of the processed image, with the origin at the image's lower-left corner.
+          let facebounds = face.boundingBox.applying(translate).applying(transform)
+          print(facebounds)
+          
+          //Extend Facebounds
+          let extendRect = CGRect(x: facebounds.minX - 120, y: facebounds.minY - 250, width: facebounds.width + 120, height: facebounds.height + 250 )
+          
+          //Crop Image
+          let cropImage = rotateImage.crop(rect: extendRect)
+          
+          self.callApi(image: cropImage)
+          print("push data image")
+        }
       }
     }
   }
@@ -360,7 +398,7 @@ extension ViewController {
   
 }
 
-// Camera Settings & Orientation
+//TODO: -Camera Settings & Orientation
 extension ViewController {
   func availableSessionPresets() -> [String] {
     let allSessionPresets = [AVCaptureSession.Preset.photo,
@@ -417,9 +455,14 @@ extension ViewController {
 // MARK: - AVCaptureVideoDataOutputSampleBufferDelegate
 extension ViewController: AVCaptureVideoDataOutputSampleBufferDelegate {
   func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
-    
+
     guard let pixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer),
       let exifOrientation = CGImagePropertyOrientation(rawValue: exifOrientationFromDeviceOrientation()) else { return }
+    
+    let imageBuffer: CVPixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer)!
+    let ciimage : CIImage = CIImage(cvPixelBuffer: imageBuffer)
+    let image : UIImage = self.convert(cmage: ciimage)
+    
     var requestOptions: [VNImageOption : Any] = [:]
     
     if let cameraIntrinsicData = CMGetAttachment(sampleBuffer, key: kCMSampleBufferAttachmentKey_CameraIntrinsicMatrix, attachmentModeOut: nil) {
@@ -431,12 +474,93 @@ extension ViewController: AVCaptureVideoDataOutputSampleBufferDelegate {
     do {
       try imageRequestHandler.perform(requests)
     }
-      
     catch {
       print(error)
     }
     
+    //if count image > 30 then push full image
+    if countNumberToPushDataImage > numberRequestData - 1 {
+        imageFullScreenWhenCountNumberRequest30 = image
+    }
+    
+  }
+  // Convert CIImage to CGImage
+  func convert(cmage:CIImage) -> UIImage
+  {
+    let context:CIContext = CIContext.init(options: nil)
+    let cgImage:CGImage = context.createCGImage(cmage, from: cmage.extent)!
+    let image:UIImage = UIImage.init(cgImage: cgImage)
+    return image
   }
   
 }
+
+//MARK: -Request API
+extension ViewController {
+  func callApi(image: UIImage) {
+    let imageData = image.jpegData(compressionQuality: 0.3)
+    
+//    let headers = [
+//      "Content-Type": "application/octet-stream",
+//      ]
+    
+    
+    Alamofire.upload(imageData!, to: "http://192.168.1.60:8687/identify", method: .post, headers: nil).responseJSON { (response) in
+      let json = JSON(response.result.value)
+      print(json["FullName"])
+      let name = json["FullName"].string
+      if response.result.isSuccess {
+      self.nameLbl.text = name
+      self.nameLbl.isHidden = false
+      } else {
+        self.nameLbl.isHidden = true
+      }
+      
+    }
+    
+  }
+}
+
+//TODO: -CROP Image
+extension UIImage {
+  func crop( rect: CGRect) -> UIImage {
+    var rect = rect
+    rect.origin.x*=self.scale
+    rect.origin.y*=self.scale
+    rect.size.width*=self.scale
+    rect.size.height*=self.scale
+    
+    let imageRef = self.cgImage!.cropping(to: rect)
+    let image = UIImage(cgImage: imageRef!, scale: self.scale, orientation: self.imageOrientation)
+    return image
+  }
+  
+}
+
+//TODO: Resize image
+extension UIViewController {
+  func imageRotatedByDegrees(oldImage: UIImage, deg degrees: CGFloat) -> UIImage {
+    //Calculate the size of the rotated view's containing box for our drawing space
+    let rotatedViewBox: UIView = UIView(frame: CGRect(x: 0, y: 0, width: oldImage.size.width, height: oldImage.size.height))
+    let t: CGAffineTransform = CGAffineTransform(rotationAngle: degrees * CGFloat.pi / 180)
+    rotatedViewBox.transform = t
+    let rotatedSize: CGSize = rotatedViewBox.frame.size
+    //Create the bitmap context
+    UIGraphicsBeginImageContext(rotatedSize)
+    let bitmap: CGContext = UIGraphicsGetCurrentContext()!
+    //Move the origin to the middle of the image so we will rotate and scale around the center.
+    bitmap.translateBy(x: rotatedSize.width / 2, y: rotatedSize.height / 2)
+    //Rotate the image context
+    bitmap.rotate(by: (degrees * CGFloat.pi / 180))
+    //Now, draw the rotated/scaled image into the context
+    bitmap.scaleBy(x: 1.0, y: -1.0)
+    bitmap.draw(oldImage.cgImage!, in: CGRect(x: -oldImage.size.width / 2, y: -oldImage.size.height / 2, width: oldImage.size.width, height: oldImage.size.height))
+    let newImage: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
+    UIGraphicsEndImageContext()
+    return newImage
+  }
+  
+}
+
+
 

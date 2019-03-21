@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "1e8e36884d3ec4b6b7db2eb00dbf1d6c"
+build_time: [1553140363, 716274000]
+inputs:
+  "/Users/nguyenductai/Desktop/testFaceDetectRealTime/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1553069897, 0]

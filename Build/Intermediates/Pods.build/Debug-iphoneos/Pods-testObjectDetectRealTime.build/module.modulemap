@@ -1,0 +1,6 @@
+framework module Pods_testObjectDetectRealTime {
+  umbrella header "Pods-testObjectDetectRealTime-umbrella.h"
+
+  export *
+  module * { export * }
+}

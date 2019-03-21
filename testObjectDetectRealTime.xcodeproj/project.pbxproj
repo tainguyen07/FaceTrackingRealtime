@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DB131E4482D43439D0BC5EB /* Pods_testObjectDetectRealTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F11D24F3A72588ECABF0BCF /* Pods_testObjectDetectRealTime.framework */; };
 		CF144B9F222A3E7F006181EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF144B9E222A3E7F006181EE /* AppDelegate.swift */; };
 		CF144BA1222A3E7F006181EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF144BA0222A3E7F006181EE /* ViewController.swift */; };
 		CF144BA4222A3E7F006181EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF144BA2222A3E7F006181EE /* Main.storyboard */; };
 		CF144BA6222A3E81006181EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF144BA5222A3E81006181EE /* Assets.xcassets */; };
 		CF144BA9222A3E81006181EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF144BA7222A3E81006181EE /* LaunchScreen.storyboard */; };
-		CF144BB3222A541D006181EE /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CF144BB2222A541D006181EE /* Resnet50.mlmodel */; };
 		CF8089DA223110DB00001AC4 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8089D9223110DB00001AC4 /* PreviewView.swift */; };
 		CF8089DC2231111D00001AC4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8089DB2231111D00001AC4 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		593235B42922BB7E3D5AD53C /* Pods-testObjectDetectRealTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testObjectDetectRealTime.release.xcconfig"; path = "Target Support Files/Pods-testObjectDetectRealTime/Pods-testObjectDetectRealTime.release.xcconfig"; sourceTree = "<group>"; };
+		5F11D24F3A72588ECABF0BCF /* Pods_testObjectDetectRealTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testObjectDetectRealTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACAFAD1CF4901035B4CB7B3 /* Pods-testObjectDetectRealTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testObjectDetectRealTime.debug.xcconfig"; path = "Target Support Files/Pods-testObjectDetectRealTime/Pods-testObjectDetectRealTime.debug.xcconfig"; sourceTree = "<group>"; };
 		CF144B9B222A3E7F006181EE /* testObjectDetectRealTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testObjectDetectRealTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF144B9E222A3E7F006181EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF144BA0222A3E7F006181EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +28,6 @@
 		CF144BA5222A3E81006181EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF144BA8222A3E81006181EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF144BAA222A3E81006181EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF144BB2222A541D006181EE /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		CF8089D9223110DB00001AC4 /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 		CF8089DB2231111D00001AC4 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB131E4482D43439D0BC5EB /* Pods_testObjectDetectRealTime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FBE85DF397F6F4A44F9443E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CACAFAD1CF4901035B4CB7B3 /* Pods-testObjectDetectRealTime.debug.xcconfig */,
+				593235B42922BB7E3D5AD53C /* Pods-testObjectDetectRealTime.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8173970810B1C8238EF26C5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F11D24F3A72588ECABF0BCF /* Pods_testObjectDetectRealTime.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CF144B92222A3E7F006181EE = {
 			isa = PBXGroup;
 			children = (
 				CF144B9D222A3E7F006181EE /* testObjectDetectRealTime */,
 				CF144B9C222A3E7F006181EE /* Products */,
+				6FBE85DF397F6F4A44F9443E /* Pods */,
+				8173970810B1C8238EF26C5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,7 +87,6 @@
 				CF144BA0222A3E7F006181EE /* ViewController.swift */,
 				CF8089DB2231111D00001AC4 /* Extensions.swift */,
 				CF8089D9223110DB00001AC4 /* PreviewView.swift */,
-				CF144BB2222A541D006181EE /* Resnet50.mlmodel */,
 				CF144BA2222A3E7F006181EE /* Main.storyboard */,
 				CF144BA5222A3E81006181EE /* Assets.xcassets */,
 				CF144BA7222A3E81006181EE /* LaunchScreen.storyboard */,
@@ -80,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF144BAD222A3E81006181EE /* Build configuration list for PBXNativeTarget "testObjectDetectRealTime" */;
 			buildPhases = (
+				BF36FCB8DEB34952CC2C4F7D /* [CP] Check Pods Manifest.lock */,
 				CF144B97222A3E7F006181EE /* Sources */,
 				CF144B98222A3E7F006181EE /* Frameworks */,
 				CF144B99222A3E7F006181EE /* Resources */,
+				25E0C8951FE01A8C417BF56C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -139,6 +163,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25E0C8951FE01A8C417BF56C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testObjectDetectRealTime/Pods-testObjectDetectRealTime-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testObjectDetectRealTime/Pods-testObjectDetectRealTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF36FCB8DEB34952CC2C4F7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testObjectDetectRealTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CF144B97222A3E7F006181EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -147,7 +220,6 @@
 				CF8089DC2231111D00001AC4 /* Extensions.swift in Sources */,
 				CF144BA1222A3E7F006181EE /* ViewController.swift in Sources */,
 				CF8089DA223110DB00001AC4 /* PreviewView.swift in Sources */,
-				CF144BB3222A541D006181EE /* Resnet50.mlmodel in Sources */,
 				CF144B9F222A3E7F006181EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +364,7 @@
 		};
 		CF144BAE222A3E81006181EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CACAFAD1CF4901035B4CB7B3 /* Pods-testObjectDetectRealTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,6 +383,7 @@
 		};
 		CF144BAF222A3E81006181EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 593235B42922BB7E3D5AD53C /* Pods-testObjectDetectRealTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
